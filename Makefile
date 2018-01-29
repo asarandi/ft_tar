@@ -30,8 +30,8 @@ CFLAGS=	-Wall -Werror -Wextra
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(C_FLAGS) -c $(SRC)
-	$(CC) $(C_FLAGS) $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) -c $(SRC)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
 	rm -rf $(OBJ)
