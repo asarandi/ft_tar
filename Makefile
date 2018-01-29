@@ -25,7 +25,7 @@ SRC =	add.c \
 OBJ =	$(SRC:%.c=%.o)
 
 CC =	cc
-CFLAGS=	-Wall -Werror -Wextr -ga
+CFLAGS=	-Wall -Werror -Wextr
 
 all: $(NAME)
 
