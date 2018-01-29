@@ -19,6 +19,7 @@
 # include <errno.h>
 # include <stdlib.h>
 # include <string.h>
+# include <time.h>
 # include <tar.h>
 # include <utime.h>
 # include <sys/time.h>
